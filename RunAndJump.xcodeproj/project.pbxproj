@@ -16,6 +16,16 @@
 		B54657551BAF936800CA7FBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54657541BAF936800CA7FBA /* Images.xcassets */; };
 		B54657581BAF936800CA7FBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54657561BAF936800CA7FBA /* LaunchScreen.xib */; };
 		B54657641BAF936800CA7FBA /* Try_HappySpeedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54657631BAF936800CA7FBA /* Try_HappySpeedUpTests.m */; };
+		B54657711BAF95FE00CA7FBA /* BitmapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B546576E1BAF95FE00CA7FBA /* BitmapUtil.m */; };
+		B54657721BAF95FE00CA7FBA /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B54657701BAF95FE00CA7FBA /* CommonUtil.m */; };
+		B54657751BAF969C00CA7FBA /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B54657741BAF969C00CA7FBA /* Player.m */; };
+		B54657781BAF96BC00CA7FBA /* Wall.m in Sources */ = {isa = PBXBuildFile; fileRef = B54657771BAF96BC00CA7FBA /* Wall.m */; };
+		B54657A61BAFD0F500CA7FBA /* GameCenterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B54657A51BAFD0F500CA7FBA /* GameCenterUtil.m */; };
+		B54657AB1BB0D3F400CA7FBA /* red_point.png in Resources */ = {isa = PBXBuildFile; fileRef = B54657A71BB0D3F400CA7FBA /* red_point.png */; };
+		B54657AC1BB0D3F400CA7FBA /* yellow_point.png in Resources */ = {isa = PBXBuildFile; fileRef = B54657A81BB0D3F400CA7FBA /* yellow_point.png */; };
+		B54657AD1BB0D3F400CA7FBA /* bubble_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B54657A91BB0D3F400CA7FBA /* bubble_1.png */; };
+		B54657AE1BB0D3F400CA7FBA /* bubble_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B54657AA1BB0D3F400CA7FBA /* bubble_2.png */; };
+		B5D1FCA21BB22F8F00A25FDD /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D1FCA11BB22F8F00A25FDD /* Enemy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B546573F1BAF936800CA7FBA /* Try_HappySpeedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try_HappySpeedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B546573F1BAF936800CA7FBA /* RunAndJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunAndJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54657431BAF936800CA7FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B54657441BAF936800CA7FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B54657461BAF936800CA7FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,9 +52,25 @@
 		B54657521BAF936800CA7FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B54657541BAF936800CA7FBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B54657571BAF936800CA7FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B546575D1BAF936800CA7FBA /* Try_HappySpeedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_HappySpeedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B546575D1BAF936800CA7FBA /* RunAndJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunAndJumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54657621BAF936800CA7FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B54657631BAF936800CA7FBA /* Try_HappySpeedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_HappySpeedUpTests.m; sourceTree = "<group>"; };
+		B546576D1BAF95FE00CA7FBA /* BitmapUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapUtil.h; sourceTree = "<group>"; };
+		B546576E1BAF95FE00CA7FBA /* BitmapUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapUtil.m; sourceTree = "<group>"; };
+		B546576F1BAF95FE00CA7FBA /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		B54657701BAF95FE00CA7FBA /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		B54657731BAF969C00CA7FBA /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B54657741BAF969C00CA7FBA /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B54657761BAF96BC00CA7FBA /* Wall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wall.h; sourceTree = "<group>"; };
+		B54657771BAF96BC00CA7FBA /* Wall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wall.m; sourceTree = "<group>"; };
+		B54657A41BAFD0F500CA7FBA /* GameCenterUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterUtil.h; sourceTree = "<group>"; };
+		B54657A51BAFD0F500CA7FBA /* GameCenterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterUtil.m; sourceTree = "<group>"; };
+		B54657A71BB0D3F400CA7FBA /* red_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_point.png; sourceTree = "<group>"; };
+		B54657A81BB0D3F400CA7FBA /* yellow_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_point.png; sourceTree = "<group>"; };
+		B54657A91BB0D3F400CA7FBA /* bubble_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_1.png; sourceTree = "<group>"; };
+		B54657AA1BB0D3F400CA7FBA /* bubble_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_2.png; sourceTree = "<group>"; };
+		B5D1FCA01BB22F8F00A25FDD /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		B5D1FCA11BB22F8F00A25FDD /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +103,8 @@
 		B54657401BAF936800CA7FBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B546573F1BAF936800CA7FBA /* Try_HappySpeedUp.app */,
-				B546575D1BAF936800CA7FBA /* Try_HappySpeedUpTests.xctest */,
+				B546573F1BAF936800CA7FBA /* RunAndJump.app */,
+				B546575D1BAF936800CA7FBA /* RunAndJumpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,17 +112,30 @@
 		B54657411BAF936800CA7FBA /* Try_HappySpeedUp */ = {
 			isa = PBXGroup;
 			children = (
+				B54657A31BAFD08100CA7FBA /* Images */,
 				B54657461BAF936800CA7FBA /* AppDelegate.h */,
 				B54657471BAF936800CA7FBA /* AppDelegate.m */,
+				B546576D1BAF95FE00CA7FBA /* BitmapUtil.h */,
+				B546576E1BAF95FE00CA7FBA /* BitmapUtil.m */,
+				B546576F1BAF95FE00CA7FBA /* CommonUtil.h */,
+				B54657701BAF95FE00CA7FBA /* CommonUtil.m */,
 				B54657491BAF936800CA7FBA /* GameScene.h */,
 				B546574A1BAF936800CA7FBA /* GameScene.m */,
 				B546574C1BAF936800CA7FBA /* GameScene.sks */,
 				B546574E1BAF936800CA7FBA /* GameViewController.h */,
 				B546574F1BAF936800CA7FBA /* GameViewController.m */,
+				B54657731BAF969C00CA7FBA /* Player.h */,
+				B54657741BAF969C00CA7FBA /* Player.m */,
+				B54657761BAF96BC00CA7FBA /* Wall.h */,
+				B54657771BAF96BC00CA7FBA /* Wall.m */,
+				B54657A41BAFD0F500CA7FBA /* GameCenterUtil.h */,
+				B54657A51BAFD0F500CA7FBA /* GameCenterUtil.m */,
 				B54657511BAF936800CA7FBA /* Main.storyboard */,
 				B54657541BAF936800CA7FBA /* Images.xcassets */,
 				B54657561BAF936800CA7FBA /* LaunchScreen.xib */,
 				B54657421BAF936800CA7FBA /* Supporting Files */,
+				B5D1FCA01BB22F8F00A25FDD /* Enemy.h */,
+				B5D1FCA11BB22F8F00A25FDD /* Enemy.m */,
 			);
 			path = Try_HappySpeedUp;
 			sourceTree = "<group>";
@@ -127,12 +166,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B54657A31BAFD08100CA7FBA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B54657A71BB0D3F400CA7FBA /* red_point.png */,
+				B54657A81BB0D3F400CA7FBA /* yellow_point.png */,
+				B54657A91BB0D3F400CA7FBA /* bubble_1.png */,
+				B54657AA1BB0D3F400CA7FBA /* bubble_2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B546573E1BAF936800CA7FBA /* Try_HappySpeedUp */ = {
+		B546573E1BAF936800CA7FBA /* RunAndJump */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B54657671BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "Try_HappySpeedUp" */;
+			buildConfigurationList = B54657671BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "RunAndJump" */;
 			buildPhases = (
 				B546573B1BAF936800CA7FBA /* Sources */,
 				B546573C1BAF936800CA7FBA /* Frameworks */,
@@ -142,14 +192,14 @@
 			);
 			dependencies = (
 			);
-			name = Try_HappySpeedUp;
+			name = RunAndJump;
 			productName = Try_HappySpeedUp;
-			productReference = B546573F1BAF936800CA7FBA /* Try_HappySpeedUp.app */;
+			productReference = B546573F1BAF936800CA7FBA /* RunAndJump.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B546575C1BAF936800CA7FBA /* Try_HappySpeedUpTests */ = {
+		B546575C1BAF936800CA7FBA /* RunAndJumpTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B546576A1BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "Try_HappySpeedUpTests" */;
+			buildConfigurationList = B546576A1BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "RunAndJumpTests" */;
 			buildPhases = (
 				B54657591BAF936800CA7FBA /* Sources */,
 				B546575A1BAF936800CA7FBA /* Frameworks */,
@@ -160,9 +210,9 @@
 			dependencies = (
 				B546575F1BAF936800CA7FBA /* PBXTargetDependency */,
 			);
-			name = Try_HappySpeedUpTests;
+			name = RunAndJumpTests;
 			productName = Try_HappySpeedUpTests;
-			productReference = B546575D1BAF936800CA7FBA /* Try_HappySpeedUpTests.xctest */;
+			productReference = B546575D1BAF936800CA7FBA /* RunAndJumpTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B546573A1BAF936800CA7FBA /* Build configuration list for PBXProject "Try_HappySpeedUp" */;
+			buildConfigurationList = B546573A1BAF936800CA7FBA /* Build configuration list for PBXProject "RunAndJump" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -196,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B546573E1BAF936800CA7FBA /* Try_HappySpeedUp */,
-				B546575C1BAF936800CA7FBA /* Try_HappySpeedUpTests */,
+				B546573E1BAF936800CA7FBA /* RunAndJump */,
+				B546575C1BAF936800CA7FBA /* RunAndJumpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,7 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54657AD1BB0D3F400CA7FBA /* bubble_1.png in Resources */,
+				B54657AC1BB0D3F400CA7FBA /* yellow_point.png in Resources */,
+				B54657AB1BB0D3F400CA7FBA /* red_point.png in Resources */,
 				B54657581BAF936800CA7FBA /* LaunchScreen.xib in Resources */,
+				B54657AE1BB0D3F400CA7FBA /* bubble_2.png in Resources */,
 				B54657551BAF936800CA7FBA /* Images.xcassets in Resources */,
 				B546574D1BAF936800CA7FBA /* GameScene.sks in Resources */,
 				B54657531BAF936800CA7FBA /* Main.storyboard in Resources */,
@@ -229,8 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54657501BAF936800CA7FBA /* GameViewController.m in Sources */,
+				B54657781BAF96BC00CA7FBA /* Wall.m in Sources */,
+				B54657711BAF95FE00CA7FBA /* BitmapUtil.m in Sources */,
 				B54657481BAF936800CA7FBA /* AppDelegate.m in Sources */,
 				B546574B1BAF936800CA7FBA /* GameScene.m in Sources */,
+				B54657A61BAFD0F500CA7FBA /* GameCenterUtil.m in Sources */,
+				B5D1FCA21BB22F8F00A25FDD /* Enemy.m in Sources */,
+				B54657721BAF95FE00CA7FBA /* CommonUtil.m in Sources */,
+				B54657751BAF969C00CA7FBA /* Player.m in Sources */,
 				B54657451BAF936800CA7FBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +308,7 @@
 /* Begin PBXTargetDependency section */
 		B546575F1BAF936800CA7FBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B546573E1BAF936800CA7FBA /* Try_HappySpeedUp */;
+			target = B546573E1BAF936800CA7FBA /* RunAndJump */;
 			targetProxy = B546575E1BAF936800CA7FBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,7 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Try_HappySpeedUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RunAndJump;
 			};
 			name = Debug;
 		};
@@ -369,7 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Try_HappySpeedUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RunAndJump;
 			};
 			name = Release;
 		};
@@ -387,7 +447,7 @@
 				);
 				INFOPLIST_FILE = Try_HappySpeedUpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RunAndJumpTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try_HappySpeedUp.app/Try_HappySpeedUp";
 			};
 			name = Debug;
@@ -402,7 +462,7 @@
 				);
 				INFOPLIST_FILE = Try_HappySpeedUpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RunAndJumpTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try_HappySpeedUp.app/Try_HappySpeedUp";
 			};
 			name = Release;
@@ -410,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B546573A1BAF936800CA7FBA /* Build configuration list for PBXProject "Try_HappySpeedUp" */ = {
+		B546573A1BAF936800CA7FBA /* Build configuration list for PBXProject "RunAndJump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B54657651BAF936800CA7FBA /* Debug */,
@@ -419,21 +479,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B54657671BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "Try_HappySpeedUp" */ = {
+		B54657671BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "RunAndJump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B54657681BAF936800CA7FBA /* Debug */,
 				B54657691BAF936800CA7FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B546576A1BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "Try_HappySpeedUpTests" */ = {
+		B546576A1BAF936800CA7FBA /* Build configuration list for PBXNativeTarget "RunAndJumpTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B546576B1BAF936800CA7FBA /* Debug */,
 				B546576C1BAF936800CA7FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
